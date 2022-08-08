@@ -6,24 +6,35 @@
 }
 
 /* PESTAÑA INDEX */
+
+
+
 .body-index{
     background-color: antiquewhite;
-    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
-    padding: 40px;
+    height: 90%;
 }
 
-.header{
-
-    padding: 50px;
-    border: 2px black;
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+    "principal principal costado"
+    "abajo abajo abajo"
     
 }
-
+.div1-index{
+    grid-area: principal;
+}
 .div-index{
-    padding: 50px;
+    grid-area: abajo;
+}
+.div3-index{
+    grid-area: costado
 }
 
 .titulo-index{
@@ -31,18 +42,29 @@
     font-size: 50px; 
     font-family: 'Roboto', sans-serif;
     color: #cba5a5;
-    text-shadow: 2px 2px 2px #cba5a5;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 50px;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-image: url(../img/animales.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .listado{
-    padding: 20px;
+
     text-align: center;
     display: flex;
     color: #cba5a5;
-    flex-direction: row;
     justify-content: center;
-    height: 20px;
-    list-style-type: none
+    align-items: center;
+    height: 30px;
+    list-style-type: none;
+    background-color: #000000;
 }
 
 .listados2{
@@ -51,6 +73,7 @@
     margin: 40px;
     font-size: 20px;
     text-decoration: none;
+    color: white;
     
 }
 
@@ -62,24 +85,63 @@
 
 .titulo3-index{
     font-size: 30px;
+    padding: 20px;
 }
+.imagen-relleno{
+    width: 100%;
+    height: 800px;
 
+}
 .subtitulo-index{
     font-size: 40px;
+    padding: 20px;
 }
 
 .footer-index{
-    padding: 20px;
+    flex-direction: row;
+    align-items: flex-end;
+    }
+
+.footer-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
+
 .logo-instagram{
     align-items: center;
     width: 100px;
     height: 100px;
     padding: 20px;
     
+}
+@media  ( max-width:700px ){
+    .titulo-index{
+        text-align: center;
+        font-size: 10px; 
+        font-family: 'Roboto', sans-serif;
+        color: #cba5a5;
+        text-shadow: 2px 2px 2px #000000;
+        padding: 50px;
+    }
+    .header{
+        width: 100%;
+        font-size: 10px;
+        justify-content: space-between;
+    }
+    .body-index{
+        width: 50vw;
+        background-color: antiquewhite;
+        flex-direction: column;
+       
+    }
+    .contenido{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+     }
+
 }
 
 /* PESTAÑA CONTACTO */
@@ -247,3 +309,12 @@ body{
     text-align: center;
     justify-content: space-around;
 }
+
+.mapouter{
+   display: flex;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+

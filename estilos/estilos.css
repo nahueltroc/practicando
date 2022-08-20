@@ -81,11 +81,20 @@ i{
     margin-left: 10px;
 }
 
-.imagen-index{
-    width: 600px;
-    height: 550px;
+.carrousel{
+   padding: 50px;
+   width: 900px;
 }
 
+.carrosel{
+    display: flex;
+    justify-content: center;
+}
+.suricata{
+    width: 900px;
+    height: 55vh;
+    object-fit: cover;
+}
 /* PESTAÑA CONTACTO */
 
 body{

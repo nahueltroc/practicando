@@ -1,0 +1,46 @@
+.imagen-suricata{
+    width: 600px;
+    height: 600px;
+}
+
+.imagenes{
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    margin: 30px;
+
+}
+
+.imagenes-elefante{
+    margin: auto;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.imagenes2{
+    background-position: center;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.imagenes:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.mapouter{
+    display: flex;
+     height: 500px;
+     width: 500px;
+     margin: auto;
+     justify-content: center;
+ }

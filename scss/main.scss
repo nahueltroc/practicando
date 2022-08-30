@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import "./base/reset.scss";
+@import "./utilities/variables.scss";
+@import "./utilities/media-querys.scss";
+@import "./utilities/mixins.scss";
+@import "./layout/grid.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./layout/img.scss";
+@import "./pages/index.scss";
+@import "./pages/contacto.scss";

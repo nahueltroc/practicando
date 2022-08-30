@@ -1,0 +1,32 @@
+.body-1{
+    background-color: #909090;
+}
+
+.contenido{
+    background-color: #755454;
+}
+
+
+.titulo-index{
+    text-align: center;
+    font-size: 50px; 
+    color: #cba5a5;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 50px;
+}
+
+
+.carrousel{
+    padding: 50px;
+    width: 900px;
+ }
+ 
+ .carrosel{
+     display: flex;
+     justify-content: center;
+ }
+ .suricata{
+     width: 900px;
+     height: 55vh;
+     object-fit: cover;
+ }

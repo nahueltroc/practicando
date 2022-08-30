@@ -1,350 +1,176 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 
-/* PESTAÑA INDEX */
-
-
-.body-1{
-    background-color: #909090;
+@media (max-width: 780px) {
+  .imagenes {
+    height: 300px !important;
+    width: 300px !important;
+  }
+}
+.body-p {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
 }
 
-.contenido{
-    background-color: #755454;
+#fotos-animales {
+  padding: 0;
 }
 
-
-.bg-image{
-    background-repeat: no-repeat;
-    background-image: url(../img/animales.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+.footer-index {
+  flex-direction: row;
+  align-items: flex-end;
 }
 
-.listado{
-
-    text-align: center;
-    display: flex;
-    color: #cba5a5;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    list-style-type: none;
-    background: rgb(34,51,195);
-    background: linear-gradient(0deg, rgba(34,51,195,1) 15%, rgba(25,20,3,1) 70%);
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #000000;
 }
 
-.titulo-index{
-    text-align: center;
-    font-size: 50px; 
-    color: #cba5a5;
-    text-shadow: 2px 2px 2px #000000;
-    padding: 50px;
+i {
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
 }
 
-.listados2{
-    text-align: center;
-    width: 20px;
-    margin: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    
+.imagen-suricata {
+  width: 600px;
+  height: 600px;
 }
 
-.listados2:hover{
-    color: #cba5a5;
-    text-decoration: underline;
+.imagenes {
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
+  margin: auto;
+  margin: 30px;
 }
 
-.footer-index{
-    flex-direction: row;
-    align-items: flex-end;
-    }
-
-.footer-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    background-color: #000000;
-    height: 50px;
+.imagenes-elefante {
+  margin: auto;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
 }
 
-i{
-    color: white;
-    font-size: 50px;
-    margin-left: 10px;
-}
-
-.carrousel{
-   padding: 50px;
-   width: 900px;
-}
-
-.carrosel{
-    display: flex;
-    justify-content: center;
-}
-.suricata{
-    width: 900px;
-    height: 55vh;
-    object-fit: cover;
-}
-/* PESTAÑA CONTACTO */
-
-body{
-    background-color: #f5f5f5;
-    
-}
-.contacto-titulo {
-    margin-left: 38%;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    color: coral;
-    border-bottom: 20px solid #f5f5f5;
-    font-size: 2rem;
-}
-.contenedor{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    width: 30%;
-    border-color: black;
-    background-color: rgb(255, 179, 179);
-    margin-left: 30%;
-    border-radius: 10px;
-
-}
-
-.titulo-contacto{
-    background-color: black;
-    color: white;
-}
-
-.footer{
-         margin-left: 40%;
-         border-radius: 10px;
-         margin-top: 30px;
-}
-
-.button{
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    border: 1px solid #f5f5f5;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.button:hover{
-    background-color: #000000;
-    color: white;
-    border: 1px solid #909090;
-    font-weight: 700;
-}
-
-/* PESTAÑA MARGARAY */
-
-.body-margaray{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.imagen-margaray{
-    border: 2px solid black;
-    box-shadow: 0px 0px 10px black;
-}
-
-/* PESTAÑA PANDA ROJO */
-
-.body-pandarojo{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-
-}
-
-.imagen-pandarojo{
-    width: 600px;
-    height: 600px;
-}
-
-/* PESTAÑA SURICATAS */
-
-.body-suricata{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.imagen-suricata{
-    width: 600px;
-    height: 600px;
-}
-
-/* Fotos y Caracteristicas */
-
-.body-Fotos-caracteriscticas{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-
-}
-
-.imagenes{
-    background-position: center;
-    width: 600px;
-    height: 600px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 10px black;
-    margin: auto;
-
-}
-
-.imagenes-elefante{
-    margin: auto;
-    background-position: center;
-    width: 600px;
-    height: 600px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 10px black;
-
-}
-
-.imagenes2{
-    background-position: center;;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.imagenes2 {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .imagenes:hover {
-    border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
 }
 
-/* Ubicacion */
-
-.body-ubicacion{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
+.mapouter {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
 }
 
-/* PESTAÑA TIEMPO DE VIDA */
-
-.body-tiempo{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
+.body-1 {
+  background-color: #909090;
 }
 
-.mapouter{
-   display: flex;
-    height: 500px;
-    width: 500px;
-    margin: auto;
-    justify-content: center;
+.contenido {
+  background-color: #755454;
 }
 
-/* Media queri */
+.titulo-index {
+  text-align: center;
+  font-size: 50px;
+  color: #cba5a5;
+  text-shadow: 2px 2px 2px #000000;
+  padding: 50px;
+}
 
-@media all and ( max-width: 750px ){
+.carrousel {
+  padding: 50px;
+  width: 900px;
+}
 
-    .body-index{
-        display: grid;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-around;
-    }
+.carrosel {
+  display: flex;
+  justify-content: center;
+}
 
-    .contenido{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+.suricata {
+  width: 900px;
+  height: 55vh;
+  object-fit: cover;
+}
 
-    }
-    
-    .div1-index{
-        text-align: center;
-        width: 40%;
-        margin: 35%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .div-index{
-        width: 40%;
-        margin: 35%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .div3-index{
-        width: 40%;
-        margin: 30%;
-        margin-top: 20px;
-        margin-bottom: 80px;
-    }
+body {
+  background-color: #f5f5f5;
+}
 
-    .listado-index{
-        margin: 0px;
-        padding: 20px;
-    }
-    .listado{
-        display: grid;
-        flex-direction: column;
-        text-align: center;
-        background-color: #000000;
-        height: 150px;
-    }
+.contacto-titulo {
+  margin-left: 38%;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: coral;
+  border-bottom: 20px solid #f5f5f5;
+  font-size: 2rem;
+}
 
-    .testo{
-        font-size: 16px;
-        padding: 20px;
-    }
+.contenedor {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 30%;
+  border-color: black;
+  background-color: rgb(255, 179, 179);
+  margin-left: 30%;
+  border-radius: 10px;
+}
 
-    .testo1{
-        font-size: 18px;
-        padding: 20px;
-    }
-    .subtitulo-index{
-        font-size: 18px;
-        text-decoration-line: underline;
-        padding-left: 10px;
-    }
-    .footer-content{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end;
-        background-color: #000000;
-        height: 50px;
-    }
-    .imagen-relleno {
-    
-        width: 400px ;
-        height: 400px ;
-    }
- }
+.titulo-contacto {
+  background-color: black;
+  color: white;
+}
 
+.footer {
+  margin-left: 40%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.button {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #f5f5f5;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+  border: 1px solid #909090;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=estilos.css.map */

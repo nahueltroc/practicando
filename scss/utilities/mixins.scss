@@ -1,0 +1,12 @@
+@mixin mediaquery  {
+    
+    @media (max-width: 780px){
+
+        .imagenes{
+            height: 300px !important;
+            width: 300px !important;
+        }
+    
+}
+
+}

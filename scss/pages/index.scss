@@ -10,7 +10,7 @@
 .titulo-index{
     text-align: center;
     font-size: 50px; 
-    color: #cba5a5;
+    color: map-get( $colors , colortitulo );
     text-shadow: 2px 2px 2px #000000;
     padding: 50px;
 }

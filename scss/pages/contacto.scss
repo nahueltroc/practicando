@@ -3,11 +3,13 @@ body{
     
 }
 .contacto-titulo {
-    margin-left: 38%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     color: coral;
-    border-bottom: 20px solid #f5f5f5;
+    margin: 20px;
     font-size: 2rem;
 }
 .contenedor{

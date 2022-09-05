@@ -1,5 +1,5 @@
 .body-p {
-    background-color: antiquewhite;
+    background-color: map-get( $colors , colorbody  );
     display: flex;
     flex-direction: column;
     text-align: center;

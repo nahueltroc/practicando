@@ -1,18 +1,189 @@
-/* Error: Undefined mixin.
- *    ,
- * 14 |     @include imagenes;
- *    |     ^^^^^^^^^^^^^^^^^
- *    '
- *   scss\layout\img.scss 14:5  @import
- *   scss\main.scss 10:9        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 14 \2502      @include imagenes;\d\a    \2502      ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\img.scss 14:5  @import\a   scss\\main.scss 10:9        root stylesheet";
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  overflow-x: hidden;
 }
+
+@media (max-width: 780px) {
+  .imagenes {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  .mapouter {
+    height: 300px !important;
+    width: 300px !important;
+  }
+}
+.body-p {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#fotos-animales {
+  padding: 0;
+}
+
+.footer-index {
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #000000;
+}
+
+i {
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.imagen-suricata {
+  width: 600px;
+  height: 600px;
+}
+
+.imagenes {
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
+  margin: auto;
+  margin: 30px;
+}
+@media (max-width: 780px) {
+  .imagenes .imagenes {
+    height: 300px !important;
+    width: 300px !important;
+  }
+}
+
+.imagenes-elefante {
+  margin: auto;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
+}
+
+.imagenes2 {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.imagenes:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.mapouter {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+}
+
+.body-1 {
+  background-color: #909090;
+}
+
+.contenido {
+  background-color: #755454;
+}
+
+.titulo-index {
+  text-align: center;
+  font-size: 50px;
+  color: #cba5a5;
+  text-shadow: 2px 2px 2px #000000;
+  padding: 50px;
+}
+
+.carrousel {
+  padding: 50px;
+  width: 900px;
+}
+
+.carrosel {
+  display: flex;
+  justify-content: center;
+}
+
+.suricata {
+  width: 900px;
+  height: 55vh;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.contacto-titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: coral;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.contenedor {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 30%;
+  border-color: black;
+  background-color: rgb(255, 179, 179);
+  margin-left: 30%;
+  border-radius: 10px;
+}
+
+.titulo-contacto {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  margin-left: 40%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.button {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #f5f5f5;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+  border: 1px solid #909090;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=estilos.css.map */

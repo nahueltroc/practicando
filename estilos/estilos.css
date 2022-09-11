@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+.pene {
+  justify-content: baseline;
+}
+
 @media (max-width: 780px) {
   .imagenes {
     height: 300px !important;
@@ -152,6 +156,7 @@ body {
   background-color: rgb(255, 179, 179);
   margin-left: 30%;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .titulo-contacto {

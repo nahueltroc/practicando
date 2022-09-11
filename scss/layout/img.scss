@@ -12,6 +12,7 @@
     margin: auto;
     margin: 30px;
     @include mediaquery;
+    object-fit: cover;
 }
 
 .imagenes-elefante{
@@ -44,3 +45,4 @@
      margin: auto;
      justify-content: center;
  }
+ 

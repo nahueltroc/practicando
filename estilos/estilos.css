@@ -5,10 +5,6 @@
   overflow-x: hidden;
 }
 
-.pene {
-  justify-content: baseline;
-}
-
 @media (max-width: 780px) {
   .imagenes {
     height: 300px !important;
@@ -89,37 +85,16 @@ i {
   box-shadow: 0px 0px 10px black;
 }
 
-.imagenes2 {
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.imagenes-ubicacion {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
 
 .imagenes:hover {
   border: 2px solid rgb(255, 255, 255);
 }
 
-.mapouter {
-  display: flex;
-  height: 500px;
-  width: 500px;
-  margin: auto;
-  justify-content: center;
-}
-
-img {
-  height: 500px;
-  width: 500px;
-  object-fit: contain;
-}
-
-.videos {
-  height: 500px;
-  width: 500px;
-}
 @media (max-width: 780px) {
   .videos .imagenes {
     height: 300px !important;

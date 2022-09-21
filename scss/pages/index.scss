@@ -15,6 +15,13 @@
     padding: 50px;
 }
 
+.titulo-index-2{
+    text-align: center;
+    font-size: 50px; 
+    color: map-get( $colors , colortitulo );
+    text-shadow: 2px 2px 2px #000000;
+    padding: 20px;
+}
 
 .carrousel{
     padding: 50px;

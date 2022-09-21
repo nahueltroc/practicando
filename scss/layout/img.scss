@@ -25,37 +25,23 @@
 
 }
 
-.imagenes2{
-    background-position: center;;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.imagenes-ubicacion{
+    width: 200px;
+    height: 200px;
 }
 
 .imagenes:hover {
     border: 2px solid rgb(255, 255, 255);
 }
 
-.mapouter{
-    display: flex;
-     height: 500px;
-     width: 500px;
-     margin: auto;
-     justify-content: center;
- }
  
- img{
-    height: 500px;
-    width: 500px;
-     object-fit: contain;
-    
-     }
+
 
 
      .videos{
         @include mediaquery;
-        height: 500px;
-    width: 500px;
+        
      }
+
+
+     

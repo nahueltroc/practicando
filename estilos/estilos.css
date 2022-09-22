@@ -2,7 +2,6 @@
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
-  overflow-x: hidden;
 }
 
 @media (max-width: 780px) {
@@ -13,6 +12,13 @@
   .mapouter {
     height: 300px !important;
     width: 300px !important;
+  }
+}
+@media (max-width: 780px) {
+  .responsive {
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover;
   }
 }
 .body-p {
@@ -28,12 +34,13 @@
 }
 
 .header {
-  background-color: rgb(210, 30, 54);
+  background-color: rgb(133, 133, 133);
 }
 
 .footer-index {
   flex-direction: row;
   align-items: flex-end;
+  overflow-y: hidden;
 }
 
 .footer-content {
@@ -42,16 +49,15 @@
   justify-content: flex-end;
   align-items: flex-end;
   background-color: #000000;
+  overflow-y: hidden;
 }
 
 i {
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   margin-left: 10px;
-}
-
-.arbolito {
-  color: #000000 !important;
+  padding: 20px;
+  overflow-y: hidden;
 }
 
 .imagen-suricata {
@@ -86,8 +92,8 @@ i {
 }
 
 .imagenes-ubicacion {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
 }
 
@@ -104,10 +110,20 @@ i {
 
 .body-1 {
   background-color: #909090;
+  overflow-x: hidden;
 }
 
 .contenido {
-  background-color: #755454;
+  background-color: #a1a0b6;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.lindos {
+  padding-left: 20px;
 }
 
 .titulo-index {
@@ -123,6 +139,14 @@ i {
   font-size: 50px;
   color: #cba5a5;
   text-shadow: 2px 2px 2px #000000;
+  padding: 20px;
+}
+
+.subtitulo-index {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(178, 115, 81);
+  text-shadow: 1px 0px 1px #000000;
   padding: 20px;
 }
 

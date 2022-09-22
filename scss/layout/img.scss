@@ -1,8 +1,9 @@
+
+
 .imagen-suricata{
     width: 600px;
     height: 600px;
 }
-
 .imagenes{
     background-position: center;
     width: 600px;
@@ -22,13 +23,14 @@
     height: 600px;
     border: 2px solid black;
     box-shadow: 0px 0px 10px black;
-
+    
 }
 
 .imagenes-ubicacion{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
+   
 }
 
 .imagenes:hover {

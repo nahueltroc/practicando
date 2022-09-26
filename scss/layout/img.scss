@@ -45,36 +45,36 @@
     grid-template-areas:"margaray tigre"
                         "suricata  pinguino"
                         "comadreja  panda";
-    text-align: center;
+    
 
     }
 
 .tigre {
     grid-area: tigre;
-    width: 100px;
+    width: 150px;
 }
      
 .margaray{
     grid-area: margaray;
-    width: 100px;
+    width: 150px;
 }
 
 .suricatax{
     grid-area: suricata;
-    width: 100px;
+    width: 150px;
 }
 
 .pinguino{
     grid-area: pinguino;
-    width: 100px;
+    width: 150px;
 }
 
 .comadreja{
     grid-area: comadreja;
-    width: 100px;
+    width: 150px;
 }
 
 .panda{
     grid-area: panda;
-    width: 100px;
+    width: 150px;
 }

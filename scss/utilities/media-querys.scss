@@ -24,12 +24,22 @@
     
 }
 
-@media (max-width: 780px){
+@media (max-width: 680px){
 
-    .input{
-         height: 200px;
-         width: 200px;
+    .contact_form{
+         
+         width: 350px !important;
     }
- 
+    
+    input{
+        width: 200px !important;
+    }
+
+    textarea{
+        width: 200px !important;
+    }
      
+    .button{
+        width: 200px !important;
+    }
  }

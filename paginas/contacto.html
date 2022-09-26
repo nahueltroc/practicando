@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/estilos.css">
@@ -38,21 +38,53 @@
     </nav>
 </header>
 
-    <div class="principal">
-     <h1>Animales lindos contactenos!</h1>
-    </div>
-    
-    <section class="contacto">
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input id="nombre" name="nombre" placeholder="Nombre completo">
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
-            <button class="button">Enviar</button>
-    </form>
-    </section>
+<div class="contact_form">
+
+  <div class="formulario">      
+    <h1>Formulario de contacto Animales Lindos</h1>
+      <h3>Escríbenos y en la brevedad nos pondremos en contacto contigo!</h3>
+
+
+        <form action="submeter-formulario.php" method="post">       
+
+          
+              <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                  <span class="obligatorio">*</span>
+                </label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+              </p>
+            
+              <p>
+                <label for="email" class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+                </label>
+                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+              </p>
+          
+              <p>
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+              </p>    
+            
+            
+              <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                  <span class="obligatorio">*</span>
+                </label>                     
+               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>                    
+            
+              <button type="submit" class="button" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p>          
+          
+        </form>
+  </div>  
+</div>
             
     <footer class="footer-index">
       <div class="footer-content">

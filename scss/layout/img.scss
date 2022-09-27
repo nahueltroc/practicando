@@ -37,7 +37,7 @@
     border: 2px solid rgb(255, 255, 255);
 }
 
- 
+
 
 .img-index{
    
@@ -45,36 +45,63 @@
     grid-template-areas:"margaray tigre"
                         "suricata  pinguino"
                         "comadreja  panda";
-    
-
+    grid-template-columns: 0.4fr 0.1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
     }
 
 .tigre {
     grid-area: tigre;
     width: 150px;
 }
+.tigre:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
+}
      
 .margaray{
     grid-area: margaray;
     width: 150px;
+}
+.margaray:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
 }
 
 .suricatax{
     grid-area: suricata;
     width: 150px;
 }
+.suricatax:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
+}
 
 .pinguino{
     grid-area: pinguino;
     width: 150px;
+}
+.pinguino:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
 }
 
 .comadreja{
     grid-area: comadreja;
     width: 150px;
 }
+.comadreja:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
+}
 
 .panda{
     grid-area: panda;
     width: 150px;
+}
+.panda:hover{
+    border: 2px solid rgb(255, 255, 255);
+    width: 160px;
 }

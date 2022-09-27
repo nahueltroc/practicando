@@ -4,7 +4,7 @@
 }
 
 .contenido{
-    background-color: #a1a0b6;
+    background-color: rgba(214, 198, 151, 0.392);
 }
 
 .logo{
@@ -18,25 +18,51 @@
 }
 .titulo-index{
     text-align: center;
-    font-size: 50px; 
+    font-size: 40px; 
     color: map-get( $colors , colortitulo );
     text-shadow: 2px 2px 2px #000000;
-    padding: 50px;
+    padding: 20px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    background-color: #787878;
 }
 
 .titulo-index-2{
     text-align: center;
-    font-size: 50px; 
+    font-size: 40px; 
     color: map-get( $colors , colortitulo );
     text-shadow: 2px 2px 2px #000000;
     padding: 20px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    background-color: #787878;
+}
+
+.titulo3-index{
+    text-align: center;
+    font-size: 40px; 
+    color: map-get( $colors , colortitulo );
+    text-shadow: 2px 2px 2px #000000;
+    padding: 20px;
+
+}
+
+.listado-index{
+    text-align: center;
+    font-size: 20px; 
+    color: map-get( $colors , colortitulo );
+    text-shadow: 2px 2px 2px #000000;
+    padding: 20px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    background-color: #2c000060;
 }
 
 .subtitulo-index{
     text-align: center;
-    font-size: 30px; 
-    color: rgb(178, 115, 81);
-    text-shadow: 1px 0px 1px #000000;
+    font-size: 20px; 
+    color: rgb(113, 4, 4);
+    text-shadow: 2px 2px 2px #ffffff;
     padding: 20px;
 }
 
